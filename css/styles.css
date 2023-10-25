@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title-bar {
+    margin: 25px;
+}
+
+#payment-panel {
+    margin: 0 15%;
+    border: 1px solid red;
+}
+
+#methods {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid grey;
+}
+
+#methods button {
+    color: orangered;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#methods button:active {
+    color: orange;
+}
